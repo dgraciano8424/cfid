@@ -6,7 +6,7 @@ This repository preserves dated Wayback Machine page screenshots and a source-ba
 
 ## Contents
 
-- `archive/screenshots/` — one browser screenshot per distinct archived HTML capture returned by the Wayback CDX index
+- `archive/screenshots/` — successfully rendered archived pages; browser connection-error images are excluded
 - `archive/manifest.csv` and `archive/manifest.json` — timestamp, original URL, archive URL, content digest, screenshot path, and capture result
 - `archive/wayback-cdx.json` — raw Wayback capture index
 - `RESEARCH.md` — organization history, services, adoption rules, grants, listings, and source notes
@@ -19,5 +19,7 @@ On Windows with Microsoft Edge installed:
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/capture-wayback.ps1
 ```
+
+The Wayback index contains 118 distinct HTML captures. At collection time, 17 rendered successfully and 101 returned an identical browser connection-error page; those error images are intentionally omitted and marked unavailable in the manifests.
 
 Research collected August 22, 2026. Personal contact details are recorded only where they were already published as organizational contact information.

@@ -11,6 +11,7 @@ if (-not (Test-Path -LiteralPath $edge)) { throw "Microsoft Edge was not found."
 
 $root = (Resolve-Path -LiteralPath ".").Path
 $profile = Join-Path $root ".edge-profile"
+$edgeConnectionErrorHash = "C8A462FC87EE4F044F00AF621B319C61B929A6973622C58FF9E2F5FFD6AAC4C3"
 $index = Get-Content -Raw -LiteralPath $IndexPath | ConvertFrom-Json
 $allRows = @($index | Select-Object -Skip 1)
 $rows = @($allRows | Where-Object { ([array]::IndexOf($allRows, $_) % $ShardCount) -eq $ShardIndex })
@@ -35,6 +36,9 @@ $manifest = foreach ($row in $rows) {
             "--virtual-time-budget=12000", "--screenshot=`"$destination`"", "`"$archiveUrl`""
         )
         Start-Process -FilePath $edge -ArgumentList $arguments -Wait -WindowStyle Hidden | Out-Null
+        if ((Test-Path -LiteralPath $destination) -and ((Get-FileHash -Algorithm SHA256 -LiteralPath $destination).Hash -eq $edgeConnectionErrorHash)) {
+            Remove-Item -LiteralPath $destination -Force
+        }
     }
 
     [pscustomobject]@{

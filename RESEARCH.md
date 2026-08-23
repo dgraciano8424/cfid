@@ -45,7 +45,7 @@ Petfinder’s Cali_FID listings add that animals are not shipped, adoptions must
 
 ## Web history
 
-The Wayback Machine CDX response in `archive/wayback-cdx.json` returned **118 distinct successful HTML captures** from 2013 through 2026 after duplicate-content collapsing. The set includes the homepage plus About, Adopt, Donate, Sponsor, Photo Gallery, Contact, form, and sponsor-resident pages. `archive/manifest.csv` maps each capture to a local screenshot and its immutable replay URL.
+The Wayback Machine CDX response in `archive/wayback-cdx.json` returned **118 distinct indexed HTML captures** from 2013 through 2026 after duplicate-content collapsing. The set includes the homepage plus About, Adopt, Donate, Sponsor, Photo Gallery, Contact, form, and sponsor-resident pages. Seventeen pages rendered successfully during collection. The other 101 returned an identical Edge “can't reach this page” response and those error images were removed. `archive/manifest.csv` records the result and immutable replay URL for every indexed capture.
 
 ## Sources
 
