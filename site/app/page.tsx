@@ -12,11 +12,18 @@ const steps = [
   ['02', 'Talk through the animal’s needs', 'Care requirements, enclosure, experience, and fit matter.'],
   ['03', 'Confirm the next step', 'Adoption and intake availability must be confirmed directly.'],
 ];
+const programs = [
+  ['Foster', 'Open your home when capacity and animal needs align.'],
+  ['Volunteer', 'Offer time, transport, outreach, or species-specific experience.'],
+  ['Adopt', 'Explore a thoughtful match when an animal is ready.'],
+  ['Support', 'Ask which supplies or practical help are most useful right now.'],
+];
 
 export default function Home() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
+      <div className="notice-bar">Availability changes with foster capacity <span aria-hidden="true">·</span> Email before visiting, surrendering, or applying</div>
       <header className="site-header" id="top">
         <div className="nav-shell">
           <a className="brand" href="#top" aria-label="Cali_FID home">
@@ -24,21 +31,26 @@ export default function Home() {
             <span><strong>Cali_FID</strong><small>Parrot & Exotic Rescue Sanctuary</small></span>
           </a>
           <nav aria-label="Primary navigation">
-            <a href="#mission">About</a><a href="#animals">Animals</a><a href="#adoption">Adoption</a><a href="#help">Help</a><a href="#contact">Contact</a>
+            <a href="#mission">About</a><a href="#animals">Animals</a><a href="#adoption">Adoption</a><a href="#help">Get involved</a><a href="#questions">Questions</a><a href="#contact">Contact</a>
           </nav>
         </div>
       </header>
 
       <main id="main-content">
         <section className="hero" aria-labelledby="hero-title">
-          <div className="botanical" aria-hidden="true"><i /><i /><i /></div>
           <div className="hero-inner">
-            <p className="eyebrow light">Modesto, California</p>
-            <h1 id="hero-title">A safe landing place for parrots and exotic animals.</h1>
-            <p className="hero-copy">Cali_FID is a Modesto-based rescue sanctuary with a long history of supporting exotic animals through care, education, rehabilitation, and sanctuary.</p>
-            <div className="hero-action">
-              <a className="primary-cta" href={`mailto:${EMAIL}`} aria-label={`Email Cali_FID at ${EMAIL}`}>Email Cali_FID</a>
-              <p>Questions about adoption, surrender, fostering, or support are welcome by email. Availability and intake capacity change; please contact us before making plans.</p>
+            <div className="hero-content">
+              <p className="eyebrow">Modesto, California</p>
+              <h1 id="hero-title">A safe landing place for parrots and exotic animals.</h1>
+              <p className="hero-copy">Cali_FID is a Modesto-based rescue sanctuary with a long history of supporting exotic animals through care, education, rehabilitation, and sanctuary.</p>
+              <div className="hero-action">
+                <a className="primary-cta" href={`mailto:${EMAIL}`} aria-label={`Email Cali_FID at ${EMAIL}`}>Email Cali_FID</a>
+                <p>Questions about adoption, surrender, fostering, or support are welcome by email.</p>
+              </div>
+            </div>
+            <div className="hero-portrait" aria-label="Historical Cali_FID gallery photo of a green parrot">
+              <div className="hero-photo archive-crop" style={{ '--crop-x': '-218.82%', '--crop-y': '-131.43%' } as CSSProperties}><img src="/archive-gallery.png" alt="Green parrot in Cali_FID’s historical photo gallery" width="1440" height="1000" /></div>
+              <div className="hero-card"><span>Community care</span><strong>Rescue · Foster · Rehabilitate</strong></div>
             </div>
           </div>
         </section>
@@ -76,8 +88,22 @@ export default function Home() {
         </section>
 
         <section className="section help" id="help" aria-labelledby="help-title">
-          <div className="help-heading"><p className="eyebrow">Ways to help</p><h2 id="help-title">Support begins with connection.</h2></div>
-          <div className="help-copy"><p>Cali_FID’s work has historically relied on knowledgeable volunteers, foster homes, community education, and practical support for animals with complex needs.</p><ul><li>Learn and share responsible exotic-animal care.</li><li>Ask about volunteer or foster opportunities.</li><li>Ask what support is most useful right now.</li></ul><p className="small-note">Please email before offering supplies, arranging a visit, or making plans to surrender or adopt an animal.</p></div>
+          <div className="help-heading"><p className="eyebrow">Choose your way to help</p><h2 id="help-title">A place for every kind of helper.</h2><p>Cali_FID’s work has historically relied on knowledgeable volunteers, foster homes, community education, and practical support.</p></div>
+          <div className="program-grid">
+            {programs.map(([title, copy], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>)}
+          </div>
+          <p className="small-note help-note">Please email before offering supplies, arranging a visit, or making plans to surrender or adopt an animal.</p>
+        </section>
+
+        <section className="questions" id="questions" aria-labelledby="questions-title">
+          <div className="section questions-inner">
+            <div><p className="eyebrow">Before you reach out</p><h2 id="questions-title">A few helpful answers.</h2></div>
+            <div className="faq-list">
+              <details><summary>Is Cali_FID accepting animals right now?</summary><p>Capacity changes with foster space and each animal’s needs. Email before transporting an animal or making surrender plans.</p></details>
+              <details><summary>Are animals currently available for adoption?</summary><p>This template does not show live listings. Email to ask about current availability and the next appropriate step.</p></details>
+              <details><summary>How can I volunteer or offer supplies?</summary><p>Needs change over time. Share your availability, experience, or what you would like to offer by email so the rescue can confirm what is useful.</p></details>
+            </div>
+          </div>
         </section>
 
         <section className="contact" id="contact" aria-labelledby="contact-title">
