@@ -23,3 +23,13 @@ powershell -ExecutionPolicy Bypass -File scripts/capture-wayback.ps1
 The Wayback index contains 118 distinct HTML captures. At collection time, 17 rendered successfully and 101 returned an identical browser connection-error page; those error images are intentionally omitted and marked unavailable in the manifests.
 
 Research collected August 22, 2026. Personal contact details are recorded only where they were already published as organizational contact information.
+
+## Website
+
+The focused one-page website lives in `site/`. It uses the archive’s enduring mission, animal categories, adoption principles, and botanical identity while avoiding stale operational claims, listings, payment methods, addresses, and phone numbers.
+
+```powershell
+cd site
+npm install
+npm run dev
+```

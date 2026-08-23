@@ -1,3 +1,8 @@
 .edge-profile/
 *.tmp
 Thumbs.db
+site/node_modules/
+site/dist/
+site/.git-deployment/
+site-package.tar.gz
+package-site.sh
