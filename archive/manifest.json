@@ -1,0 +1,946 @@
+﻿[
+    {
+        "timestamp":  "20130517153753",
+        "original_url":  "http://califidparrotandexotic.com",
+        "archive_url":  "https://web.archive.org/web/20130517153753/http://califidparrotandexotic.com",
+        "digest":  "4S553K3MVD6763NV2METVUILIU4ACA2W",
+        "screenshot":  "screenshots/20130517153753--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20140517085459",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20140517085459/http://califidparrotandexotic.com/",
+        "digest":  "6SNNG64TFDGBJR3UFN2UACJL7UPDKUSO",
+        "screenshot":  "screenshots/20140517085459--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141217034613",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20141217034613/http://califidparrotandexotic.com/",
+        "digest":  "PFJDC2QVHQOBPNZ3QBLAE6NN2V6DBN3K",
+        "screenshot":  "screenshots/20141217034613--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20151013044237",
+        "original_url":  "http://www.califidparrotandexotic.com:80/",
+        "archive_url":  "https://web.archive.org/web/20151013044237/http://www.califidparrotandexotic.com:80/",
+        "digest":  "22SGMYUMXDC7AKPJJEFD56P37B73D3WG",
+        "screenshot":  "screenshots/20151013044237--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20180831111607",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20180831111607/https://www.califidparrotandexotic.com/",
+        "digest":  "LTV7LBG7GEWIERCMKVY5NL6HWHIP22OX",
+        "screenshot":  "screenshots/20180831111607--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20200923082127",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20200923082127/https://www.califidparrotandexotic.com/",
+        "digest":  "4MOBI6FJTYNWJZOP3TZKKJFT4ACR6P2S",
+        "screenshot":  "screenshots/20200923082127--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20211226142606",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20211226142606/https://www.califidparrotandexotic.com/",
+        "digest":  "M5XEOUGHUBFF7DRSATTUPVF2CODBU6DQ",
+        "screenshot":  "screenshots/20211226142606--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20220625034950",
+        "original_url":  "http://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20220625034950/http://www.califidparrotandexotic.com/",
+        "digest":  "ZJJWUYBDJNRAZLHL3Q7XHXQVSA5WPFPR",
+        "screenshot":  "screenshots/20220625034950--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20220816100242",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20220816100242/http://califidparrotandexotic.com/",
+        "digest":  "JJ3SGD3UMBQI2UNC2JRGXY35A4QVBTQ4",
+        "screenshot":  "screenshots/20220816100242--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20221001030002",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20221001030002/https://www.califidparrotandexotic.com/",
+        "digest":  "M5XEOUGHUBFF7DRSATTUPVF2CODBU6DQ",
+        "screenshot":  "screenshots/20221001030002--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20221005021453",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20221005021453/http://califidparrotandexotic.com/",
+        "digest":  "XUZCBSLNCUN36F5IDA2IQ7O55LXINDWP",
+        "screenshot":  "screenshots/20221005021453--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20221208093104",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20221208093104/http://califidparrotandexotic.com/",
+        "digest":  "73TVIABAEMYGZT3ALHMMB4Z2BYUUETWH",
+        "screenshot":  "screenshots/20221208093104--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230111170315",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230111170315/https://www.califidparrotandexotic.com/",
+        "digest":  "ED7WRFAUM5O3ENX33VEHSHFOSZYKNR7G",
+        "screenshot":  "screenshots/20230111170315--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230316125758",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230316125758/http://califidparrotandexotic.com/",
+        "digest":  "G3XUNAMF5SUGGS2U24SE3EQGXDYE3B66",
+        "screenshot":  "screenshots/20230316125758--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230328170912",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230328170912/https://www.califidparrotandexotic.com/",
+        "digest":  "2UKQSTLKUCR6KIBPMF27AA5Y5RSENUVM",
+        "screenshot":  "screenshots/20230328170912--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230609143213",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230609143213/http://califidparrotandexotic.com/",
+        "digest":  "B2DZ5KHB4SUB4IACG2PRRNCGXT73CDOX",
+        "screenshot":  "screenshots/20230609143213--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230610200932",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230610200932/https://www.califidparrotandexotic.com/",
+        "digest":  "RDSJMTCNMKBF56D7TY7PSHEO3QVBGRRW",
+        "screenshot":  "screenshots/20230610200932--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230927171348",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230927171348/https://www.califidparrotandexotic.com/",
+        "digest":  "JNUXSJ6UDNBFE3VS7XVVQR5XD7LBRENN",
+        "screenshot":  "screenshots/20230927171348--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230929101213",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20230929101213/http://califidparrotandexotic.com/",
+        "digest":  "YD2KX2XNGGC3SI6CZ5GTM2ZNNZQJSK6X",
+        "screenshot":  "screenshots/20230929101213--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20231201130158",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20231201130158/http://califidparrotandexotic.com/",
+        "digest":  "AHMOSEDZ25QC62GWOXUF77BAFVORQ23Q",
+        "screenshot":  "screenshots/20231201130158--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20231208113520",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20231208113520/https://www.califidparrotandexotic.com/",
+        "digest":  "JNUXSJ6UDNBFE3VS7XVVQR5XD7LBRENN",
+        "screenshot":  "screenshots/20231208113520--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240516135031",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240516135031/https://www.califidparrotandexotic.com/",
+        "digest":  "P7RON37EK74K6JXRD2EHS4TXJQP7I7TB",
+        "screenshot":  "screenshots/20240516135031--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240516135204",
+        "original_url":  "http://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240516135204/http://www.califidparrotandexotic.com/",
+        "digest":  "ODR5BQFVFS53LLRMEN2AA27FVAOX633W",
+        "screenshot":  "screenshots/20240516135204--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240518075723",
+        "original_url":  "https://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240518075723/https://califidparrotandexotic.com/",
+        "digest":  "JNG7Y36T23ODQ247ZDZELGH6OE56PKFI",
+        "screenshot":  "screenshots/20240518075723--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240518080037",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240518080037/http://califidparrotandexotic.com/",
+        "digest":  "LTQGUANJUTBRQXFM4ZUMUMZYZBE5RMPP",
+        "screenshot":  "screenshots/20240518080037--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240529120057",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240529120057/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20240529120057--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240701232411",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240701232411/https://www.califidparrotandexotic.com/",
+        "digest":  "2WV7HHHRD2KGFZ4ZIZS5GD5QMXIP37ZS",
+        "screenshot":  "screenshots/20240701232411--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240702112921",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240702112921/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20240702112921--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240918181508",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20240918181508/http://califidparrotandexotic.com/",
+        "digest":  "75E2ABAUUNHDXKCR2OOISI5SRX3KRH5X",
+        "screenshot":  "screenshots/20240918181508--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20241004195857",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20241004195857/https://www.califidparrotandexotic.com/",
+        "digest":  "REYSARRJCWH5U3DXWZWJG34QZJWQBOBC",
+        "screenshot":  "screenshots/20241004195857--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20241005061339",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20241005061339/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20241005061339--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250214091838",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20250214091838/https://www.califidparrotandexotic.com/",
+        "digest":  "XQ76UNX5CWADYIZ6FQGEAVYQUKNECCCY",
+        "screenshot":  "screenshots/20250214091838--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250217011241",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20250217011241/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20250217011241--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250317090647",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20250317090647/https://www.califidparrotandexotic.com/",
+        "digest":  "XQ76UNX5CWADYIZ6FQGEAVYQUKNECCCY",
+        "screenshot":  "screenshots/20250317090647--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250319190346",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20250319190346/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20250319190346--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250622134536",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20250622134536/https://www.califidparrotandexotic.com/",
+        "digest":  "XYG3ZZ25W7B5Q6WJYTN22OAZRBYYBFMH",
+        "screenshot":  "screenshots/20250622134536--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20251208101817",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20251208101817/http://califidparrotandexotic.com/",
+        "digest":  "TDFE5Q7UY4IJA45RITFVIGTRC2ZSYUTW",
+        "screenshot":  "screenshots/20251208101817--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260115113021",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20260115113021/https://www.califidparrotandexotic.com/",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20260115113021--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210045607",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20260210045607/https://www.califidparrotandexotic.com/",
+        "digest":  "Q7ZYKQCAGXNK6KEJK4AZOBXIN45YBCWW",
+        "screenshot":  "screenshots/20260210045607--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260215044923",
+        "original_url":  "http://califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20260215044923/http://califidparrotandexotic.com/",
+        "digest":  "22QFPX6YGN5OPUMZDGAR2CEKO3L5BST2",
+        "screenshot":  "screenshots/20260215044923--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260312224705",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20260312224705/https://www.califidparrotandexotic.com/",
+        "digest":  "PPYDYCADRG2ZHB7DP2RRHDOTB6EXEDPN",
+        "screenshot":  "screenshots/20260312224705--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042329",
+        "original_url":  "https://www.califidparrotandexotic.com/",
+        "archive_url":  "https://web.archive.org/web/20260607042329/https://www.califidparrotandexotic.com/",
+        "digest":  "L3KFWPVWMTKMF6AQVNEC67UIG3QLLUUM",
+        "screenshot":  "screenshots/20260607042329--index.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240703225701",
+        "original_url":  "https://www.califidparrotandexotic.com/.well-known/trust.txt",
+        "archive_url":  "https://web.archive.org/web/20240703225701/https://www.califidparrotandexotic.com/.well-known/trust.txt",
+        "digest":  "NV3LGKVRGEABLZ2BBRHGFTFY3PEESDVV",
+        "screenshot":  "screenshots/20240703225701--.well-known_trust.txt.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141018121057",
+        "original_url":  "http://califidparrotandexotic.com/about.html",
+        "archive_url":  "https://web.archive.org/web/20141018121057/http://califidparrotandexotic.com/about.html",
+        "digest":  "3KKXA6HP44JH3ILYMEV35EXDXL4CGDG7",
+        "screenshot":  "screenshots/20141018121057--about.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20171010114443",
+        "original_url":  "http://www.califidparrotandexotic.com:80/about.html",
+        "archive_url":  "https://web.archive.org/web/20171010114443/http://www.califidparrotandexotic.com:80/about.html",
+        "digest":  "C7RRJWKSQSPS2SDXSU7DCTPU4MCYZVQP",
+        "screenshot":  "screenshots/20171010114443--about.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260316150511",
+        "original_url":  "https://www.califidparrotandexotic.com/about.html",
+        "archive_url":  "https://web.archive.org/web/20260316150511/https://www.califidparrotandexotic.com/about.html",
+        "digest":  "KCCJBEMURR75ENIZGJZQKE7VKQIMO2IT",
+        "screenshot":  "screenshots/20260316150511--about.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/about.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/about.html",
+        "digest":  "O6MLKOBK37RJYHQXMJMI62JULBZ2OLX3",
+        "screenshot":  "screenshots/20260607042345--about.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141018143249",
+        "original_url":  "http://califidparrotandexotic.com/adopt.html",
+        "archive_url":  "https://web.archive.org/web/20141018143249/http://califidparrotandexotic.com/adopt.html",
+        "digest":  "M5YAC2VDS7N3UIR3XMSA3CXCGIXO7KV5",
+        "screenshot":  "screenshots/20141018143249--adopt.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20170706035709",
+        "original_url":  "http://www.califidparrotandexotic.com:80/adopt.html",
+        "archive_url":  "https://web.archive.org/web/20170706035709/http://www.califidparrotandexotic.com:80/adopt.html",
+        "digest":  "I26KFTFEOQDDX44PWHTSA22MFDMIPBUZ",
+        "screenshot":  "screenshots/20170706035709--adopt.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20210616095811",
+        "original_url":  "https://www.califidparrotandexotic.com/adopt.html",
+        "archive_url":  "https://web.archive.org/web/20210616095811/https://www.califidparrotandexotic.com/adopt.html",
+        "digest":  "LNMVH4GBFWGA7RSEMSZFRNJ5ATY5BZYF",
+        "screenshot":  "screenshots/20210616095811--adopt.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210051152",
+        "original_url":  "https://www.califidparrotandexotic.com/adopt.html",
+        "archive_url":  "https://web.archive.org/web/20260210051152/https://www.califidparrotandexotic.com/adopt.html",
+        "digest":  "DCOEXS4BQZNR6H2JRD4HEKWFF2FHJHTG",
+        "screenshot":  "screenshots/20260210051152--adopt.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/adopt.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/adopt.html",
+        "digest":  "P2CUBKF7I3N772QLPYMJZDTACPVEVKYP",
+        "screenshot":  "screenshots/20260607042345--adopt.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141017195122",
+        "original_url":  "http://califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20141017195122/http://califidparrotandexotic.com/contact.html",
+        "digest":  "EVEHTCDNB3B6SL34LTTMHWTXKIR42APX",
+        "screenshot":  "screenshots/20141017195122--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20161017122941",
+        "original_url":  "http://califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20161017122941/http://califidparrotandexotic.com/contact.html",
+        "digest":  "3UK2KRCXYJY74S3FDFYZ3QA3KVN3C3F6",
+        "screenshot":  "screenshots/20161017122941--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20170815211028",
+        "original_url":  "http://www.califidparrotandexotic.com:80/contact.html",
+        "archive_url":  "https://web.archive.org/web/20170815211028/http://www.califidparrotandexotic.com:80/contact.html",
+        "digest":  "5UMIVX2K4A36ZO4IFPEJPANGN52LJO6G",
+        "screenshot":  "screenshots/20170815211028--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20210616094114",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20210616094114/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "7U2CTB7X6NVKJ4KSLPNYHZN2EBUGXZKB",
+        "screenshot":  "screenshots/20210616094114--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230201081736",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20230201081736/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "LUGBZAYPGBEH3G6G4W5O7IDUQR5ZDQF6",
+        "screenshot":  "screenshots/20230201081736--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230328171040",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20230328171040/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "SQSB2OLOQU6SMEWFROSLBW5AOL3M7HTI",
+        "screenshot":  "screenshots/20230328171040--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230610201152",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20230610201152/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "KZC2OEOVAPJ4WNFO44DM74D3U6R3PPKP",
+        "screenshot":  "screenshots/20230610201152--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230927171710",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20230927171710/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "QHCY27PDKAJTVP2JFHLN4S7GQSU4O4WV",
+        "screenshot":  "screenshots/20230927171710--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240702193242",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20240702193242/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "3WYNUPKGYZZ4OFL536SF56GUUYH7VH3W",
+        "screenshot":  "screenshots/20240702193242--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/contact.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/contact.html",
+        "digest":  "4M3Y5VRZQM46AA26LHWEGMFVZ7NIYM7K",
+        "screenshot":  "screenshots/20260607042345--contact.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141017160753",
+        "original_url":  "http://califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20141017160753/http://califidparrotandexotic.com/donate.html",
+        "digest":  "AWXZTW77IRRLLPJRFME7YPDCTVH6JYIT",
+        "screenshot":  "screenshots/20141017160753--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20170815211745",
+        "original_url":  "http://www.califidparrotandexotic.com:80/donate.html",
+        "archive_url":  "https://web.archive.org/web/20170815211745/http://www.califidparrotandexotic.com:80/donate.html",
+        "digest":  "T4KDC42Y43T7KN6AZR2C3XNOT3SCMAN6",
+        "screenshot":  "screenshots/20170815211745--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20180203152709",
+        "original_url":  "http://www.califidparrotandexotic.com:80/donate.html",
+        "archive_url":  "https://web.archive.org/web/20180203152709/http://www.califidparrotandexotic.com:80/donate.html",
+        "digest":  "WZES5FLSZBA6MJAL3BWXDBY4TYGTOOP4",
+        "screenshot":  "screenshots/20180203152709--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20191213100744",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20191213100744/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "GNKDHA76MF4D6XSFOUEDQANLJ5KG2TXS",
+        "screenshot":  "screenshots/20191213100744--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20210616102034",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20210616102034/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "WH5CZ74N4UQYQQNCCYPTWBMEHYCP5GYJ",
+        "screenshot":  "screenshots/20210616102034--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230328174856",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20230328174856/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "PAAMDWPYJXB5VODSNBBW2BL4P2K4UZYB",
+        "screenshot":  "screenshots/20230328174856--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20230610205022",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20230610205022/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "3VMZZHSIRX6QXVJ6FE46DPETPHSB2OPT",
+        "screenshot":  "screenshots/20230610205022--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240704235133",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20240704235133/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "WH5CZ74N4UQYQQNCCYPTWBMEHYCP5GYJ",
+        "screenshot":  "screenshots/20240704235133--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20251209073852",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20251209073852/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "IIATSH7YNV7HGYKE6R3AFNEECEFYQI56",
+        "screenshot":  "screenshots/20251209073852--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210053507",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20260210053507/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "JQUWUPNECGVH7YUQI55H6WOBRZJHCJIQ",
+        "screenshot":  "screenshots/20260210053507--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/donate.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/donate.html",
+        "digest":  "UKF3XRRXLK2GTK25IXOTKC3T5O6MMK6Z",
+        "screenshot":  "screenshots/20260607042345--donate.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240704235348",
+        "original_url":  "https://www.califidparrotandexotic.com/favicon.ico",
+        "archive_url":  "https://web.archive.org/web/20240704235348/https://www.califidparrotandexotic.com/favicon.ico",
+        "digest":  "7KQG6SOCNPRWDNFWNEXDHMXYIQ7HRBII",
+        "screenshot":  "screenshots/20240704235348--favicon.ico.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20140519080743",
+        "original_url":  "http://califidparrotandexotic.com/footer.html",
+        "archive_url":  "https://web.archive.org/web/20140519080743/http://califidparrotandexotic.com/footer.html",
+        "digest":  "WVXILPT5UDQRKQZ3TWPVJNYIUK6LZSXE",
+        "screenshot":  "screenshots/20140519080743--footer.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20171009145235",
+        "original_url":  "http://califidparrotandexotic.com/footer.html",
+        "archive_url":  "https://web.archive.org/web/20171009145235/http://califidparrotandexotic.com/footer.html",
+        "digest":  "IT4BQMOD3EBAID5GOBTNHF6YRNQMRYX7",
+        "screenshot":  "screenshots/20171009145235--footer.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240812004903",
+        "original_url":  "https://www.califidparrotandexotic.com/footer.html",
+        "archive_url":  "https://web.archive.org/web/20240812004903/https://www.califidparrotandexotic.com/footer.html",
+        "digest":  "RTHWR7YUVS3NZ2TJRO7UVWLIVJYO4QF3",
+        "screenshot":  "screenshots/20240812004903--footer.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20241004205839",
+        "original_url":  "https://www.califidparrotandexotic.com/footer.html",
+        "archive_url":  "https://web.archive.org/web/20241004205839/https://www.califidparrotandexotic.com/footer.html",
+        "digest":  "T77XJS7D2N3WQJGPCYEKRDMFZFURZLUT",
+        "screenshot":  "screenshots/20241004205839--footer.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042329",
+        "original_url":  "https://www.califidparrotandexotic.com/footer.html",
+        "archive_url":  "https://web.archive.org/web/20260607042329/https://www.califidparrotandexotic.com/footer.html",
+        "digest":  "33VX5LOTKSQJXQII7MVIS34SGBQU5V3V",
+        "screenshot":  "screenshots/20260607042329--footer.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20211028210724",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20211028210724/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "QXS2ZUZQBT5YP4DERYNVS6TWEMSPT6SL",
+        "screenshot":  "screenshots/20211028210724--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20231208125927",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20231208125927/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "OQRBM3RJCECO4KJDZODYMJ2QUIDGLFZY",
+        "screenshot":  "screenshots/20231208125927--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250913111415",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20250913111415/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "DG6QTXJVZB3KJZWJQ7HGUOJZISNVVZJB",
+        "screenshot":  "screenshots/20250913111415--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20251209081903",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20251209081903/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "5USY56AMQQ2XOID4OAE3VQZX3B5TRX3V",
+        "screenshot":  "screenshots/20251209081903--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210061724",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20260210061724/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "2SHD4ELADB72NXN423B45TCZF2SQZ52O",
+        "screenshot":  "screenshots/20260210061724--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/forms/adoption-application.html",
+        "digest":  "Y47T6KSQAPN5MEPWJGEOV5TK3TJUDZQO",
+        "screenshot":  "screenshots/20260607042345--forms_adoption-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20220517043642",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "archive_url":  "https://web.archive.org/web/20220517043642/https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "digest":  "X333ORJEHAUFDVQADBZ2RBZQJSQDS7XG",
+        "screenshot":  "screenshots/20220517043642--forms_foster-home-agreement.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210060406",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "archive_url":  "https://web.archive.org/web/20260210060406/https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "digest":  "OO2IUKKUXSWKQKV5DURTXQSTPJMEMF36",
+        "screenshot":  "screenshots/20260210060406--forms_foster-home-agreement.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/forms/foster-home-agreement.html",
+        "digest":  "PCJZJCB7U2UXR6LNNCO4QMA2TNDBATME",
+        "screenshot":  "screenshots/20260607042345--forms_foster-home-agreement.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20220517050954",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/volunteer-application.html",
+        "archive_url":  "https://web.archive.org/web/20220517050954/https://www.califidparrotandexotic.com/forms/volunteer-application.html",
+        "digest":  "L3M7BGLQEZM5T7RK2VV7J2ZZRGOVPKW2",
+        "screenshot":  "screenshots/20220517050954--forms_volunteer-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/forms/volunteer-application.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/forms/volunteer-application.html",
+        "digest":  "SGE4UB2HZRET7VIZX43KPOD7IJCPNLNZ",
+        "screenshot":  "screenshots/20260607042345--forms_volunteer-application.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042329",
+        "original_url":  "https://www.califidparrotandexotic.com/images/banner.jpg",
+        "archive_url":  "https://web.archive.org/web/20260607042329/https://www.califidparrotandexotic.com/images/banner.jpg",
+        "digest":  "BDOJJ2XWVP2JIJETAQZFQNF5MFUNBEIV",
+        "screenshot":  "screenshots/20260607042329--images_banner.jpg.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141219130719",
+        "original_url":  "http://califidparrotandexotic.com/index.html",
+        "archive_url":  "https://web.archive.org/web/20141219130719/http://califidparrotandexotic.com/index.html",
+        "digest":  "PFJDC2QVHQOBPNZ3QBLAE6NN2V6DBN3K",
+        "screenshot":  "screenshots/20141219130719--index.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20160208061315",
+        "original_url":  "http://califidparrotandexotic.com/index.html",
+        "archive_url":  "https://web.archive.org/web/20160208061315/http://califidparrotandexotic.com/index.html",
+        "digest":  "22SGMYUMXDC7AKPJJEFD56P37B73D3WG",
+        "screenshot":  "screenshots/20160208061315--index.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20210527154341",
+        "original_url":  "https://www.califidparrotandexotic.com/index.html",
+        "archive_url":  "https://web.archive.org/web/20210527154341/https://www.califidparrotandexotic.com/index.html",
+        "digest":  "M5XEOUGHUBFF7DRSATTUPVF2CODBU6DQ",
+        "screenshot":  "screenshots/20210527154341--index.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260113052844",
+        "original_url":  "https://www.califidparrotandexotic.com/index.html",
+        "archive_url":  "https://web.archive.org/web/20260113052844/https://www.califidparrotandexotic.com/index.html",
+        "digest":  "EJKM55UJG6G7ZPANBVVEK6HLRRLO5Q2Y",
+        "screenshot":  "screenshots/20260113052844--index.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240705004148",
+        "original_url":  "https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/ffss-logo-260.png",
+        "archive_url":  "https://web.archive.org/web/20240705004148/https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/ffss-logo-260.png",
+        "digest":  "KPKPR3A2VWYE7BXJC7EO2UT4TU6VYP5N",
+        "screenshot":  "screenshots/20240705004148--news-events_2023-07-new-grants_ffss-logo-260.png.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240705214704",
+        "original_url":  "https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/petco-love-260.png",
+        "archive_url":  "https://web.archive.org/web/20240705214704/https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/petco-love-260.png",
+        "digest":  "TXZRXNBQXHRG2ZLHJ4PVL2ITCHCWWGA6",
+        "screenshot":  "screenshots/20240705214704--news-events_2023-07-new-grants_petco-love-260.png.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240703075458",
+        "original_url":  "https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "archive_url":  "https://web.archive.org/web/20240703075458/https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "digest":  "TJF6ZTRDQCCTHA7QZ5P4SURIEKLG72DF",
+        "screenshot":  "screenshots/20240703075458--news-events_2023-07-new-grants_thank-you.jpg.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20240808225945",
+        "original_url":  "https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "archive_url":  "https://web.archive.org/web/20240808225945/https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "digest":  "4JY6D3JKB26DPSCR6DRNPZMXJT7JDXNV",
+        "screenshot":  "screenshots/20240808225945--news-events_2023-07-new-grants_thank-you.jpg.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042329",
+        "original_url":  "https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "archive_url":  "https://web.archive.org/web/20260607042329/https://www.califidparrotandexotic.com/news-events/2023-07-new-grants/thank-you.jpg",
+        "digest":  "A7RGSRN7FZ56MTRGATYPCUWLQ75SEPFA",
+        "screenshot":  "screenshots/20260607042329--news-events_2023-07-new-grants_thank-you.jpg.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141017110310",
+        "original_url":  "http://califidparrotandexotic.com/photos.html",
+        "archive_url":  "https://web.archive.org/web/20141017110310/http://califidparrotandexotic.com/photos.html",
+        "digest":  "FOMLEIIDNVCFT5MRRKMTZ4PCLSYURLH5",
+        "screenshot":  "screenshots/20141017110310--photos.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20170815211033",
+        "original_url":  "http://www.califidparrotandexotic.com:80/photos.html",
+        "archive_url":  "https://web.archive.org/web/20170815211033/http://www.califidparrotandexotic.com:80/photos.html",
+        "digest":  "OVKJGVWYBZTQRVHFAC37SXK2N5JLOFCL",
+        "screenshot":  "screenshots/20170815211033--photos.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20251209072930",
+        "original_url":  "https://www.califidparrotandexotic.com/photos.html",
+        "archive_url":  "https://web.archive.org/web/20251209072930/https://www.califidparrotandexotic.com/photos.html",
+        "digest":  "HP2DCGUKURS3X2DU5PRSGSHJ7RFJE6LV",
+        "screenshot":  "screenshots/20251209072930--photos.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210052411",
+        "original_url":  "https://www.califidparrotandexotic.com/photos.html",
+        "archive_url":  "https://web.archive.org/web/20260210052411/https://www.califidparrotandexotic.com/photos.html",
+        "digest":  "YP6CX7CJTY45L6RH4XRXU6MHFFNN3PJT",
+        "screenshot":  "screenshots/20260210052411--photos.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/photos.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/photos.html",
+        "digest":  "XCEGZEL6MZVU2HA5T3DNSGVW6OBP7YJU",
+        "screenshot":  "screenshots/20260607042345--photos.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20141017021534",
+        "original_url":  "http://califidparrotandexotic.com/sponsor.html",
+        "archive_url":  "https://web.archive.org/web/20141017021534/http://califidparrotandexotic.com/sponsor.html",
+        "digest":  "ZJSFCZAU4G6LCGQEFWRB4KNBSL7BTFSI",
+        "screenshot":  "screenshots/20141017021534--sponsor.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20150919031812",
+        "original_url":  "http://www.califidparrotandexotic.com:80/sponsor.html",
+        "archive_url":  "https://web.archive.org/web/20150919031812/http://www.califidparrotandexotic.com:80/sponsor.html",
+        "digest":  "5F7IXU3TBWZAXH3C73JKN4ZXZ6X43Z7D",
+        "screenshot":  "screenshots/20150919031812--sponsor.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20251209072108",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor.html",
+        "archive_url":  "https://web.archive.org/web/20251209072108/https://www.califidparrotandexotic.com/sponsor.html",
+        "digest":  "HJSAGVHGGSFYE2R3CM4MAWYZN5DI6YET",
+        "screenshot":  "screenshots/20251209072108--sponsor.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210051712",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor.html",
+        "archive_url":  "https://web.archive.org/web/20260210051712/https://www.califidparrotandexotic.com/sponsor.html",
+        "digest":  "O3SVBGUMBTSCTTDV5QGISELHVDNKWDR6",
+        "screenshot":  "screenshots/20260210051712--sponsor.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260607042345",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor.html",
+        "archive_url":  "https://web.archive.org/web/20260607042345/https://www.califidparrotandexotic.com/sponsor.html",
+        "digest":  "RIZUGDTJGZDSL3MZJC3CVGAFZUN6QLMP",
+        "screenshot":  "screenshots/20260607042345--sponsor.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20150920001642",
+        "original_url":  "http://www.califidparrotandexotic.com:80/sponsor/education.html",
+        "archive_url":  "https://web.archive.org/web/20150920001642/http://www.califidparrotandexotic.com:80/sponsor/education.html",
+        "digest":  "HQMATA5TCQR5TEV25JEIIFXG242PA2QV",
+        "screenshot":  "screenshots/20150920001642--sponsor_education.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20150919031837",
+        "original_url":  "http://www.califidparrotandexotic.com:80/sponsor/parrots.html",
+        "archive_url":  "https://web.archive.org/web/20150919031837/http://www.califidparrotandexotic.com:80/sponsor/parrots.html",
+        "digest":  "YNJKISSQHJBGN5QUSWMYRFUBLB4WVGEO",
+        "screenshot":  "screenshots/20150919031837--sponsor_parrots.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250622141802",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor/parrots.html",
+        "archive_url":  "https://web.archive.org/web/20250622141802/https://www.califidparrotandexotic.com/sponsor/parrots.html",
+        "digest":  "U24BE2KVX35QTDKH4DRWSDG2BTBAH7SH",
+        "screenshot":  "screenshots/20250622141802--sponsor_parrots.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210052448",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor/parrots.html",
+        "archive_url":  "https://web.archive.org/web/20260210052448/https://www.califidparrotandexotic.com/sponsor/parrots.html",
+        "digest":  "MZ2UXWEOZ2ZIMJ3RA74IRBLFKWOPZV2W",
+        "screenshot":  "screenshots/20260210052448--sponsor_parrots.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20150919031842",
+        "original_url":  "http://www.califidparrotandexotic.com:80/sponsor/reptiles.html",
+        "archive_url":  "https://web.archive.org/web/20150919031842/http://www.califidparrotandexotic.com:80/sponsor/reptiles.html",
+        "digest":  "L6VOIXJSHXIJDKK2RPFXH5DCECDFQ4SZ",
+        "screenshot":  "screenshots/20150919031842--sponsor_reptiles.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20260210062006",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor/reptiles.html",
+        "archive_url":  "https://web.archive.org/web/20260210062006/https://www.califidparrotandexotic.com/sponsor/reptiles.html",
+        "digest":  "2TVCV4AVON2VNUTKZKIDW4DDD4RRJN2F",
+        "screenshot":  "screenshots/20260210062006--sponsor_reptiles.html.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20250209213516",
+        "original_url":  "https://www.califidparrotandexotic.com/sponsor/slideshow-p/index.htm",
+        "archive_url":  "https://web.archive.org/web/20250209213516/https://www.califidparrotandexotic.com/sponsor/slideshow-p/index.htm",
+        "digest":  "4WUG6NYTEGQWVTKDGVJJYDIJMXM2X57K",
+        "screenshot":  "screenshots/20250209213516--sponsor_slideshow-p_index.htm.png",
+        "captured":  true
+    },
+    {
+        "timestamp":  "20160130005643",
+        "original_url":  "http://www.califidparrotandexotic.com:80/thanks-comments.html",
+        "archive_url":  "https://web.archive.org/web/20160130005643/http://www.califidparrotandexotic.com:80/thanks-comments.html",
+        "digest":  "4XXXUL6QKC2VYAOQKJKWWLU4MZO7B6EL",
+        "screenshot":  "screenshots/20160130005643--thanks-comments.html.png",
+        "captured":  true
+    }
+]
