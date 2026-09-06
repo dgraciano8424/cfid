@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://califid-rescue.dgraciano8424.chatgpt.site'),
   title: 'Cali_FID Parrot & Exotic Rescue Sanctuary',
   description: 'A Modesto-based rescue sanctuary supporting parrots and exotic animals through care, education, rehabilitation, adoption, and sanctuary.',
   openGraph: { title: 'Cali_FID Parrot & Exotic Rescue Sanctuary', description: 'A safe landing place for parrots and exotic animals in Modesto, California.', type: 'website', images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Cali_FID Parrot & Exotic Rescue Sanctuary' }] },

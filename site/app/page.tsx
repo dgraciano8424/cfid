@@ -1,117 +1,79 @@
-import type { CSSProperties } from 'react';
+import Image from 'next/image';
 
 const EMAIL = 'califidrescue@gmail.com';
+const PETFINDER = 'https://www.petfinder.com/member/us/ca/modesto/cali-fid-parrot-exotics-rescue-sanctuary-ca1970/';
+const APPLICATION = 'https://www.califidparrotandexotic.com/forms/adoption-application.html';
+const emailLink = (subject: string) => 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject);
+
 const animals = [
-  { name: 'Parrots', description: 'Parrots and other pet birds', alt: 'Green parrot in Cali_FID’s historical photo gallery', crop: { '--crop-x': '-310.77%', '--crop-y': '-302.06%' } },
-  { name: 'Lizards', description: 'Lizards and other scaled companions', alt: 'Lizard in Cali_FID’s historical photo gallery', crop: { '--crop-x': '-513.85%', '--crop-y': '-302.06%' } },
-  { name: 'Turtles & Tortoises', description: 'Turtles, tortoises, and their specialized care needs', alt: 'Tortoise in Cali_FID’s historical photo gallery', crop: { '--crop-x': '-311.54%', '--crop-y': '-568.09%' } },
-  { name: 'Snakes', description: 'Snakes and other reptiles', alt: 'Coiled snake in Cali_FID’s historical photo gallery', crop: { '--crop-x': '-513.85%', '--crop-y': '-568.09%' } },
+  { name: 'Parrots & birds', image: 'parrot.jpg', alt: 'Kissy Girl, a green and red conure from the Cali_FID photo archive', detail: 'Big personalities. Remarkable companions.' },
+  { name: 'Lizards', image: 'lizard.jpg', alt: 'Iguana photographed for the Cali_FID rescue gallery', detail: 'A little patience. A world of personality.' },
+  { name: 'Turtles & tortoises', image: 'tortoise.jpg', alt: 'Tortoise on the grass in the Cali_FID rescue gallery', detail: 'A slower pace. The same need for care.' },
+  { name: 'Snakes', image: 'snake.jpg', alt: 'Close-up of a snake from the Cali_FID rescue gallery', detail: 'Beautifully different. Equally deserving.' },
 ];
-const steps = [
-  ['01', 'Start with an email', 'Tell us what you are hoping to learn or discuss.'],
-  ['02', 'Talk through the animal’s needs', 'Care requirements, enclosure, experience, and fit matter.'],
-  ['03', 'Confirm the next step', 'Adoption and intake availability must be confirmed directly.'],
+const questions = [
+  ['How do I adopt an animal?', 'Start with Cali_FID’s Petfinder profile to see published listings, then complete the adoption application on the rescue’s original website. Include your experience, household information, and photos of the appropriate enclosure. Check your email, including spam, for next steps. If the application is unavailable, email the rescue for guidance.'],
+  ['Can I visit or have an animal shipped to me?', 'Visits and adoptions are by appointment. All adoptions must be completed in person; Cali_FID does not ship animals. Contact the rescue and arrange a meeting before traveling.'],
+  ['Can you take an animal I can no longer care for?', 'Intake depends on available foster space and the animal’s needs. Email with the species, your location, and a brief description of the situation. Please wait for confirmation before transporting an animal. Placement cannot be guaranteed.'],
+  ['What should I prepare before adopting?', 'Be ready to discuss species-appropriate care, suitable housing, and your experience. The rescue’s published policy also asks for veterinary and personal references and a signed agreement. Adoption fees vary by animal; confirm the fee and accepted payment method directly.'],
+  ['Can I help if I cannot adopt?', 'Absolutely. Ask about fostering, volunteering, or supplies the rescue currently needs. Share your location, availability, and any experience with birds or exotic animals so the team can discuss a useful way to help.'],
+  ['Are the animals pictured here available?', 'Our gallery photographs celebrate animals in Cali_FID’s history. They are not a live adoption list. Follow the Petfinder link for published listings and confirm availability with the rescue.'],
 ];
-const programs = [
-  ['Foster', 'Open your home when capacity and animal needs align.'],
-  ['Volunteer', 'Offer time, transport, outreach, or species-specific experience.'],
-  ['Adopt', 'Explore a thoughtful match when an animal is ready.'],
-  ['Support', 'Ask which supplies or practical help are most useful right now.'],
-];
+function Arrow({ diagonal = false }: { diagonal?: boolean }) {
+  return <span className="arrow" aria-hidden="true">{diagonal ? '↗' : '→'}</span>;
+}
 
 export default function Home() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to content</a>
-      <div className="notice-bar">Availability changes with foster capacity <span aria-hidden="true">·</span> Email before visiting, surrendering, or applying</div>
-      <header className="site-header" id="top">
-        <div className="nav-shell">
-          <a className="brand" href="#top" aria-label="Cali_FID home">
-            <span className="brand-mark" aria-hidden="true">CF</span>
-            <span><strong>Cali_FID</strong><small>Parrot & Exotic Rescue Sanctuary</small></span>
-          </a>
-          <nav aria-label="Primary navigation">
-            <a href="#mission">About</a><a href="#animals">Animals</a><a href="#adoption">Adoption</a><a href="#help">Get involved</a><a href="#questions">Questions</a><a href="#contact">Contact</a>
-          </nav>
-        </div>
-      </header>
-
+      <div className="announcement"><span>Small rescue. Wholehearted care.</span><a href="#contact">Modesto, California <span aria-hidden="true">↗</span></a></div>
+      <header className="site-header" id="top"><div className="shell header-inner">
+        <a className="brand" href="#top" aria-label="Cali_FID Rescue home"><span className="brand-name">Cali_FID<span className="brand-dot">.</span></span><span className="brand-subtitle">Parrot & Exotics Rescue</span></a>
+        <nav aria-label="Main navigation"><a href="#mission">Our story</a><a href="#animals">Our animals</a><a href="#adoption">Adopt</a><a href="#contact">Contact</a><a className="nav-cta" href="#help">Lend a hand <Arrow /></a></nav>
+      </div></header>
       <main id="main-content">
-        <section className="hero" aria-labelledby="hero-title">
-          <div className="hero-inner">
-            <div className="hero-content">
-              <p className="eyebrow">Modesto, California</p>
-              <h1 id="hero-title">A safe landing place for parrots and exotic animals.</h1>
-              <p className="hero-copy">Cali_FID is a Modesto-based rescue sanctuary with a long history of supporting exotic animals through care, education, rehabilitation, and sanctuary.</p>
-              <div className="hero-action">
-                <a className="primary-cta" href={`mailto:${EMAIL}`} aria-label={`Email Cali_FID at ${EMAIL}`}>Email Cali_FID</a>
-                <p>Questions about adoption, surrender, fostering, or support are welcome by email.</p>
-              </div>
-            </div>
-            <div className="hero-portrait" aria-label="Historical Cali_FID gallery photo of a green parrot">
-              <div className="hero-photo archive-crop" style={{ '--crop-x': '-218.82%', '--crop-y': '-131.43%' } as CSSProperties}><img src="/archive-gallery.png" alt="Green parrot in Cali_FID’s historical photo gallery" width="1440" height="1000" /></div>
-              <div className="hero-card"><span>Community care</span><strong>Rescue · Foster · Rehabilitate</strong></div>
-            </div>
+        <section className="hero shell" aria-labelledby="hero-title">
+          <div className="hero-copy">
+            <p className="eyebrow"><span className="status-dot" /> A little rescue with a lot of heart</p>
+            <h1 id="hero-title">Every life deserves a <em>softer landing.</em></h1>
+            <p className="lead">Feathered, scaled, and wonderfully different. Helping parrots and exotic animals find the care—and the home—they deserve.</p>
+            <div className="button-row"><a className="button button-dark" href={PETFINDER}>Find your companion <Arrow diagonal /></a><a className="text-link" href="#help">Be part of their story <Arrow /></a></div>
+            <div className="hero-footnote"><span className="mini-label">ROOTED IN MODESTO</span><span>Foster-based rescue. Community-powered care.</span></div>
           </div>
+          <figure className="hero-visual">
+            <div className="hero-photo"><Image src="/images/hero-parrot.jpg" alt="Jayjay, a ruby macaw pictured by Cali_FID on Petfinder" fill sizes="(max-width: 760px) 100vw, 48vw" priority unoptimized /></div>
+            <div className="photo-stamp"><span>Every kind.</span><span>Every personality.</span><strong>Every bit of heart.</strong></div>
+            <figcaption>Jayjay, from Cali_FID’s Petfinder profile <span aria-hidden="true">↗</span></figcaption>
+          </figure>
         </section>
-
-        <section className="section mission" id="mission" aria-labelledby="mission-title">
-          <div className="section-heading"><p className="eyebrow">Our purpose</p><h2 id="mission-title">Care that meets each animal where it is.</h2></div>
-          <div className="mission-copy">
-            <p>Cali_FID’s historic mission is to improve standards of care for exotic animals through education, rehabilitation, adoption, and sanctuary for animals that cannot live as pets.</p>
-            <p>Each animal’s needs are individual. The goal is to support mental and physical well-being and help identify the most appropriate next step—foster care, an adoptive home, or lifelong sanctuary.</p>
-          </div>
-          <div className="feature-row" aria-label="Cali_FID services"><span>Rescue & rehabilitation</span><span>Education & responsible care</span><span>Foster, adoption & sanctuary</span></div>
+        <div className="values-strip"><div className="shell"><span>Rescue & rehabilitation</span><span aria-hidden="true">✳</span><span>Thoughtful adoption</span><span aria-hidden="true">✳</span><span>Education & sanctuary</span></div></div>
+        <section className="section shell story" id="mission" aria-labelledby="story-title">
+          <div><p className="eyebrow">01 / Our story</p><h2 id="story-title">Different needs.<br /><em>The same big love.</em></h2></div>
+          <div className="story-copy"><p className="large-copy">Not every rescue has feathers. Not every companion has fur. They all deserve a chance.</p><p>Cali_FID began in 1998, when founder Jennifer Perez saw the need for specialized care for parrots and exotic animals. That idea grew into a rescue rooted in Modesto and a community of people willing to help.</p><p>Our purpose is rescue, rehabilitation, education, adoption, and sanctuary for animals who cannot live as pets. Through foster homes and individual attention, care starts with the needs of each animal.</p><a className="text-link" href="#help">Help write the next chapter <Arrow /></a></div>
+          <div className="story-aside"><span className="story-year">1998</span><span>Where our story began</span><span className="story-name">Cali_FID means <strong>California Feathered Kids.</strong></span></div>
         </section>
-
-        <section className="section animals" id="animals" aria-labelledby="animals-title">
-          <div className="center-heading"><p className="eyebrow">Animals we’ve helped</p><h2 id="animals-title">Many kinds of exotic companions.</h2><p>Over the years, Cali_FID has cared for parrots and other pet birds, lizards, turtles and tortoises, snakes, amphibians, and other exotic animals.</p></div>
-          <div className="animal-grid">
-            {animals.map((animal) => (
-              <article className="animal-card" key={animal.name}>
-                <div className="archive-crop" style={animal.crop as CSSProperties}><img src="/archive-gallery.png" alt={animal.alt} width="1440" height="1000" /></div>
-                <div className="animal-card-copy"><h3>{animal.name}</h3><p>{animal.description}</p></div>
-              </article>
-            ))}
-          </div>
-          <p className="historical-note">These categories reflect Cali_FID’s history and do not indicate current availability or intake.</p>
+        <section className="animal-section" id="animals" aria-labelledby="animals-title"><div className="section shell">
+          <div className="section-top"><div><p className="eyebrow">02 / The animals at the heart of it</p><h2 id="animals-title">A whole world<br />of <em>wonderful.</em></h2></div><div className="section-intro"><p>From birds to reptiles, every animal has its own story—and its own needs. Meet a few of the kinds of companions in Cali_FID’s history.</p><a className="text-link" href={PETFINDER}>See adoption listings on Petfinder <Arrow diagonal /></a></div></div>
+          <div className="animal-grid">{animals.map((animal, i) => <article className="animal-card" key={animal.name}><div className="animal-photo"><Image src={'/images/' + animal.image} alt={animal.alt} fill sizes="(max-width: 520px) 100vw, (max-width: 1100px) 50vw, 25vw" unoptimized /><span className="animal-index">0{i + 1}</span></div><h3>{animal.name}</h3><p>{animal.detail}</p></article>)}</div>
+          <p className="gallery-note">A look back, not a live availability list. These are original Cali_FID gallery photographs. Small mammals are also part of the rescue’s work; intake always depends on foster capacity.</p>
+        </div></section>
+        <section className="adoption-section" id="adoption" aria-labelledby="adoption-title"><div className="section shell adoption-layout">
+          <div className="adoption-intro"><p className="eyebrow">03 / A home, not just a house</p><h2 id="adoption-title">The right match<br />is worth <em>the care.</em></h2><p>Adoption is a commitment to a whole life. Let’s start with the animal’s needs, your experience, and a thoughtful conversation.</p><a className="button button-yellow" href={PETFINDER}>Explore adoption listings <Arrow diagonal /></a><p className="appointment-note">By appointment · In-person adoptions · No shipping</p></div>
+          <ol className="adoption-steps"><li><span>01</span><div><h3>Find a possible match</h3><p>Browse Cali_FID’s Petfinder profile. Read the animal’s story and care needs, and confirm availability with the rescue.</p></div></li><li><span>02</span><div><h3>Tell us about your home</h3><p>Complete the rescue’s adoption application. Be ready to share your experience and photographs of a suitable cage or enclosure.</p><a className="text-link" href={APPLICATION}>Open the adoption application <Arrow diagonal /></a></div></li><li><span>03</span><div><h3>Meet, connect, and prepare</h3><p>The team will contact you about next steps and an in-person appointment. Check your spam folder, too.</p></div></li></ol>
+        </div></section>
+        <section className="section shell help-section" id="help" aria-labelledby="help-title">
+          <div className="section-top"><div><p className="eyebrow">04 / Good people make it possible</p><h2 id="help-title">You don’t need wings<br />to <em>lift someone up.</em></h2></div><p className="section-intro">A little time. A safe space. A practical gift. There’s more than one way to make a difference.</p></div>
+          <div className="help-grid">
+            <article className="help-card foster-card"><span className="help-number">01 / OPEN YOUR HOME</span><h3>A safe place<br />in between.</h3><p>Foster homes make room for rescue. Tell us about your space and experience, and ask what fostering could look like for you.</p><a className="text-link" href={emailLink('I would like to learn about fostering')}>Ask about fostering <Arrow /></a></article>
+            <article className="help-card volunteer-card"><span className="help-number">02 / GIVE YOUR TIME</span><h3>Your time.<br />Their new chapter.</h3><p>Bring your skills, care, and willingness to help. Share your availability and interests with our volunteer team.</p><a className="text-link" href={emailLink('I would like to volunteer with Cali_FID')}>Explore volunteering <Arrow /></a></article>
+            <article className="help-card support-card"><span className="help-number">03 / SUPPORT THE EVERYDAY</span><h3>Small gifts.<br />Meaningful care.</h3><p>Help support food, enrichment, and day-to-day care. Ask which supplies or donation options are most useful right now.</p><a className="text-link" href={emailLink('I would like to support Cali_FID')}>Ask about donating <Arrow /></a></article>
+          </div><p className="help-note">Please confirm current needs before buying supplies or arranging a drop-off.</p>
         </section>
-
-        <section className="adoption" id="adoption" aria-labelledby="adoption-title">
-          <div className="section adoption-inner">
-            <div className="center-heading light-heading"><p className="eyebrow light">Adoption, when available</p><h2 id="adoption-title">Thoughtful matches start with good information.</h2><p>Historically, Cali_FID’s adoption process centered on suitable housing, species-appropriate care knowledge, references, an agreement, and a careful match for each animal.</p></div>
-            <ol className="step-grid">
-              {steps.map(([number, title, copy]) => <li key={number}><span className="step-number">{number}</span><h3>{title}</h3><p>{copy}</p></li>)}
-            </ol>
-            <p className="adoption-note">Cali_FID does not publish live animal listings or a current application on this page.</p>
-          </div>
-        </section>
-
-        <section className="section help" id="help" aria-labelledby="help-title">
-          <div className="help-heading"><p className="eyebrow">Choose your way to help</p><h2 id="help-title">A place for every kind of helper.</h2><p>Cali_FID’s work has historically relied on knowledgeable volunteers, foster homes, community education, and practical support.</p></div>
-          <div className="program-grid">
-            {programs.map(([title, copy], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>)}
-          </div>
-          <p className="small-note help-note">Please email before offering supplies, arranging a visit, or making plans to surrender or adopt an animal.</p>
-        </section>
-
-        <section className="questions" id="questions" aria-labelledby="questions-title">
-          <div className="section questions-inner">
-            <div><p className="eyebrow">Before you reach out</p><h2 id="questions-title">A few helpful answers.</h2></div>
-            <div className="faq-list">
-              <details><summary>Is Cali_FID accepting animals right now?</summary><p>Capacity changes with foster space and each animal’s needs. Email before transporting an animal or making surrender plans.</p></details>
-              <details><summary>Are animals currently available for adoption?</summary><p>This template does not show live listings. Email to ask about current availability and the next appropriate step.</p></details>
-              <details><summary>How can I volunteer or offer supplies?</summary><p>Needs change over time. Share your availability, experience, or what you would like to offer by email so the rescue can confirm what is useful.</p></details>
-            </div>
-          </div>
-        </section>
-
-        <section className="contact" id="contact" aria-labelledby="contact-title">
-          <div className="contact-inner"><p className="eyebrow light">Contact</p><h2 id="contact-title">Get in touch</h2><p>For questions about Cali_FID or to ask about current availability, intake capacity, adoption, fostering, or ways to help, email us.</p><a href={`mailto:${EMAIL}`} aria-label={`Email Cali_FID at ${EMAIL}`}>{EMAIL}</a><small>Responses and available services may vary with current capacity.</small></div>
-        </section>
+        <section className="faq-section" id="questions" aria-labelledby="faq-title"><div className="section shell faq-layout"><div><p className="eyebrow">A few things to know</p><h2 id="faq-title">Good questions.<br /><em>Caring answers.</em></h2><p>Wondering about something else?</p><a className="text-link" href="#contact">Let’s talk <Arrow /></a></div><div className="faq-list">{questions.map(([question, answer]) => <details key={question}><summary>{question}<span aria-hidden="true" /></summary><p>{answer}</p></details>)}</div></div></section>
+        <section className="contact-section" id="contact" aria-labelledby="contact-title"><div className="section shell contact-layout"><div><p className="eyebrow">A kind next step starts here</p><h2 id="contact-title">Let’s make<br /><em>something good happen.</em></h2><a className="contact-email" href={emailLink('Hello Cali_FID')}>{EMAIL} <Arrow diagonal /></a><p className="email-hint">Opens your email app. You can also copy the address above.</p></div><div className="contact-details"><div><span>WHERE WE ARE</span><p>Modesto, California<br />Foster-home based, by appointment.</p></div><div><span>BEFORE YOU REACH OUT</span><p>Include your location, the animal or species, and how you’d like to help. Current intake and appointments must be confirmed directly.</p></div><a className="text-link" href={PETFINDER}>Cali_FID on Petfinder <Arrow diagonal /></a></div></div></section>
       </main>
-
-      <footer><p>Cali_FID Parrot & Exotic Rescue Sanctuary · Modesto, California</p><p>Cali_FID means “California Feathered Kids.”</p><p>© Cali_FID Parrot & Exotic Rescue Sanctuary</p></footer>
+      <footer className="site-footer"><div className="shell footer-top"><a className="brand" href="#top"><span className="brand-name">Cali_FID<span className="brand-dot">.</span></span><span className="brand-subtitle">Parrot & Exotics Rescue Sanctuary</span></a><p>For the feathered.<br />The scaled. The wonderfully different.</p><nav aria-label="Footer navigation"><a href="#adoption">Adoption</a><a href="#help">Get involved</a><a href="#questions">FAQs</a><a href="#contact">Contact</a></nav></div><div className="shell footer-bottom"><span>© Cali_FID Parrot & Exotics Rescue Sanctuary</span><a href="#top">Back to the top ↑</a></div></footer>
     </>
   );
 }
